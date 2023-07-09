@@ -26,6 +26,7 @@ $('.counters').each(function () {
     });
 });
 
+
 const btnlist=document.querySelectorAll('.b');
 
 btnlist.forEach(btnl=>{
@@ -35,5 +36,9 @@ btnlist.forEach(btnl=>{
         btnl.classList.add('special');
     });
 });
+
+
+
+
 
 
