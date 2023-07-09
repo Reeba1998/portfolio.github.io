@@ -12,15 +12,7 @@
 // });
 
 
-// const btn = document.getElementsById('icon-2');
 
-// btn.addEventListener('click', function onClick() {
-  
-// btn.style.position="absolute";
-// btn.style.width='4px';
-// btn.style.background='#407BFF';
-
-// });
 
 $('.counters').each(function () {
     $(this).prop('Counter',0).animate({
@@ -33,4 +25,15 @@ $('.counters').each(function () {
         }
     });
 });
+
+const btnlist=document.querySelectorAll('.b');
+
+btnlist.forEach(btnl=>{
+    btnl.addEventListener('click',()=>{
+       document.querySelector('.special')?.classList.remove('special');
+       $("a.active").removeClass('active');
+        btnl.classList.add('special');
+    });
+});
+
 
