@@ -249,14 +249,36 @@ body {
       overflow: hidden; 
     }
 
-      /* .service.link.active:after {
+      .service.link.active:after {
         content: "";
         position: absolute;
         right: 0;
         bottom: 0;
         top: 0;
         width: 4px;
-        background: #407BFF; } */
+        background: #407BFF; } 
+
+
+        .special{
+          background: #ffffff;
+          box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.05); }
+    
+        .special
+         {
+          position: relative;
+          overflow: hidden; 
+        }
+    
+          .special:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 4px;
+            background: #407BFF; } 
+
+        
 
  .module3{ 
         padding: 100px 0;
